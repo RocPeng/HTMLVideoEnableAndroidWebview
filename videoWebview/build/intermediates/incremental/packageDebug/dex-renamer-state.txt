@@ -1,0 +1,7 @@
+#Wed Oct 19 18:48:15 GMT+08:00 2016
+base.0=F\:\\software\\JAVAwork\\GitTest_AS\\videoWebview\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6653ea87879e1c79371b67b3c6c4d0a7b8292423
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\software\\JAVAwork\\GitTest_AS\\videoWebview\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d62fdf9c35996aff2c00521cc060cba87214f21a\\classes.dex
+base.1=F\:\\software\\JAVAwork\\GitTest_AS\\videoWebview\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d62fdf9c35996aff2c00521cc060cba87214f21a
+file.0=F\:\\software\\JAVAwork\\GitTest_AS\\videoWebview\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6653ea87879e1c79371b67b3c6c4d0a7b8292423\\classes.dex

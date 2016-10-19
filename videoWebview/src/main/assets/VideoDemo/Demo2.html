@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head> 
+	<meta charset=utf-8> 
+	<title>视频播放功能</title>
+	<script src="jquery-1.9.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var video = $('#video_play')[0];
+			$('#play').click(function(){video.play();})
+			$("#pause").click(function(){video.pause();})
+			$("#go10").click(function(){video.currentTime+=10;})
+			$("#back10").click(function(){video.currentTime-=10;})
+			$("#rate1").click(function(){video.playbackRate +=2;})
+			$("#rate0").click(function(){video.playbackRate -=2;})
+			$("#volume1").click(function(){video.volume+=0.1;})
+			$("#volume0").click(function(){video.volume-=0.1;})
+			$("#muted1").click(function(){video.muted = true;})
+			$("#muted0").click(function(){video.muted = false;})
+			$("#full").click(function(){
+				video.webkitRequestFullScreen(); 
+				video.mozRequestFullScreen(); 
+				video.requestFullscreen(); 
+			})
+		});
+	</script>
+	<style type="text/css">
+		.button{
+			display:inline-block;
+			zoom:1;
+			vertical-align: baseline;
+			margin: 0 2px;
+			outline:none;
+			cursor: pointer;
+			text-align: center;
+			text-decoration: none;
+			font: 14px/100% Arial, Helvetica, sans-serif;
+			padding: .5em 2em .55em;
+			text-shadow: 0 1px 1px rgba(0,0,0,.3);
+			-webkit-border-radius: .5em; 
+			-moz-border-radius: .5em;
+			border-radius: .5em;
+			-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+			-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+			box-shadow: 0 1px 2px rgba(0,0,0,.2);
+		}
+		.orange {
+			color: #fef4e9;
+			border: solid 1px #da7c0c;
+			background: #f78d1d;
+			background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+			background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+		}
+		.orange:hover {
+			background: #f47c20;
+			background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+			background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+		}
+		.orange:active {
+			color: #fcd3a5;
+			background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+			background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+		}
+	</style>
+</head> 
+
+</body>
+<div >
+	<p style="text-align: center;">
+		<video id="video_play" loop autoplay style="width: 800px;height: 600dp" poster="a10.jpg" preload="auto">
+			<source src="meisheng.mp4" type="video/mp4">
+				你的浏览器不支持该播放器
+			</video>
+			<ul>
+				<button id="play" class="button orange">播放</button>
+				<button id="pause" class="button orange">暂停</button>
+				<button id="go10" class="button orange">快进10秒</button>
+				<button id="back10" class="button orange">快退10秒</button>
+				<button id="rate1" class="button orange">播放速度+</button>
+				<button id="rate0" class="button orange">播放速度-</button>
+				<button id="volume1" class="button orange">声音+</button>
+				<button id="volume0" class="button orange">声音-</button>
+				<button id="muted1" class="button orange">静音</button>
+				<button id="muted0" class="button orange">解除静音</button>
+				<button id="full" class="button orange">全屏</button>
+			</p>
+		</div>
+	</body> 
+	</html> 
+
+
+

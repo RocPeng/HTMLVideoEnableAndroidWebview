@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="21"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.1"
+    timestamp="35091707824135"
+    token="-4037529128054902223"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="246" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="129" />
+    <task
+        name="verifier"
+        duration="29" />
+
+    <artifact
+        location="F:\software\JAVAwork\GitTest_AS\videoWebview\build\outputs\apk\videoWebview-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="35091707824135"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="F:\software\JAVAwork\GitTest_AS\videoWebview\build\outputs\apk\videoWebview-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

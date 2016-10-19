@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:8:5-24:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:11:9-41
+	android:hardwareAccelerated
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:10:9-45
+	android:theme
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:12:9-40
+activity#name.cpr.ExampleActivity
+ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:17:13-45
+	android:configChanges
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:18:13-74
+	android:name
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:16:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-vector-drawable:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] F:\software\JAVAwork\GitTest_AS\videoWebview\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
+		INJECTED from F:\software\JAVAwork\GitTest_AS\videoWebview\src\main\AndroidManifest.xml
