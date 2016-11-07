@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1" android:title="更换背景" android:alphabeticShortcut="g"/>
+    <item android:id="@+id/item2" android:title="参数设置" android:alphabeticShortcut="e">
+        <menu>
+            <group android:id="@+id/setting" android:checkableBehavior="all">
+                <item android:id="@+id/sound" android:title="使用背景"></item>
+                <item android:id="@+id/video" android:title="背景音乐"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/item3" android:title="恢复默认" android:alphabeticShortcut="r"></item>
+</menu>
