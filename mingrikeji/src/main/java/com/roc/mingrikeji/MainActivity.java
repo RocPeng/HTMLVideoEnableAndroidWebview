@@ -47,6 +47,7 @@ import java.util.Calendar;
  */
 
 public class MainActivity extends AppCompatActivity {
+    //context
     private Context mContext;
     private TextView text;
     private ProgressBar p1;
