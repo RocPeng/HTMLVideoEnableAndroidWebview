@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.roc.helloapp.activity.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载页面"
+        android:id="@+id/button"
+        android:layout_below="@+id/next"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <com.roc.helloapp.view.MyTextView
+        android:id="@+id/MyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+    <com.roc.helloapp.view.MyShaderTextView
+        android:id="@+id/shaderText"
+        android:layout_below="@id/MyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好啊！！！！"/>
+    <EditText
+        android:id="@+id/URLText"
+        android:layout_below="@id/shaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://10.0.10.231:8080/test.rar"/>
+    <TextView
+        android:id="@+id/rate"
+        android:layout_below="@+id/URLText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="下载进度:"/>
+    <com.roc.helloapp.view.CircleProgressView
+        android:id="@+id/MyProgressBar"
+        android:layout_toRightOf="@id/rate"
+        android:layout_below="@+id/URLText"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载页面"
+        android:id="@+id/down"
+        android:layout_below="@+id/next"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始下载"
+        android:id="@+id/download"
+        android:layout_below="@+id/MyProgressBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下个页面"
+        android:id="@+id/next"
+        android:layout_below="@+id/MyProgressBar"
+        android:layout_toRightOf="@+id/MyProgressBar"
+        android:layout_toEndOf="@+id/MyProgressBar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ScrollerActivity"
+        android:id="@+id/ScrollerActivity"
+        android:layout_below="@+id/next"
+        android:layout_alignLeft="@+id/next"
+        android:layout_alignStart="@+id/next"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DragViewGroup"
+        android:id="@+id/DragViewGroup"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DragViewTest"
+        android:id="@+id/DragViewTest"
+        android:textAllCaps="false"
+        android:layout_below="@+id/ScrollerActivity"
+        android:layout_toRightOf="@+id/DragViewGroup"
+        android:layout_toEndOf="@+id/DragViewGroup"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_above="@+id/CircleTest"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CircleTest"
+        android:id="@+id/CircleTest"
+        android:textAllCaps="false"
+        android:layout_below="@+id/DragViewGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>
